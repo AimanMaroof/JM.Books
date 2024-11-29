@@ -1,0 +1,266 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: rgb(43, 44, 46);
+    font-size: 2vw;
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: "Dancing Script";
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-brand {
+    font-size: 4.5vw;
+
+}
+
+
+nav a {
+    color: rgb(194, 109, 163);
+    /* font-weight: bold;
+    font-size: 1.5vw;
+    font-family: "Dancing Script"; */
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+}
+
+/* content strt */
+.content {
+    overflow: hidden;
+    height: 54vw;
+    width: 100%;
+    background-color: rgb(5, 6, 7);
+    color: azure;
+}
+
+
+
+.content h2 {
+    font-size: 5vw;
+    margin-top: 20vw;
+    margin-left: 30vw;
+    font-family: "Dancing Script";
+    font-weight: bolder;
+}
+
+
+.content p {
+    font-size: 1.7vw;
+    color: palevioletred;
+    margin-left: 21.5vw;
+}
+
+/* content end */
+
+
+/* .cardmainstart */
+
+.card-main {
+    background-color: rgb(43, 44, 46);
+}
+
+.card-main h2 {
+    font-size: 4vw;
+    margin-left: 22vw;
+    padding-top: 4vw;
+    font-family: "Dancing Script";
+    color: palevioletred;
+    font-weight: bold;
+}
+
+
+/* .cardmainend */
+
+
+
+
+/* cards strt */
+.cards {
+    width: 100%;
+    height: 60vw;
+    background-color: rgb(43, 44, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+.card {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 22rem;
+}
+
+
+.card img {
+    height: 12rem;
+}
+
+.card button {
+    background-color: rgb(212, 212, 212);
+    border: none;
+    border-bottom: 2px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    color: black;
+    font-family: "Dancing Script";
+    font-weight: bold;
+
+}
+
+/* cards end */
+
+
+
+/* cardline two strt  */
+.cardline2 {
+    display: flex;
+
+}
+
+
+.cardline2 img {
+    height: 12rem;
+}
+
+
+.cardline2 {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /* width: 22rem; */
+    font-weight: bold;
+}
+
+
+
+/* list section strt */
+.list-main {
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    display: flex;
+}
+
+
+.list {
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin-top: 14vw;
+    line-height: 3vw;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-left: 6vw;
+
+}
+
+.list h4 {
+    font-family: "Dancing Script";
+    font-size: 4vw;
+    color: palevioletred;
+    padding-bottom: 4vw;
+    margin-left: 4vw;
+}
+
+
+
+.logo {
+    width: 50%;
+    height: auto;
+    background-color: black;
+}
+
+
+.logo img {
+    width: 40vw;
+    margin-top: 15vw;
+    margin-left: 4.5vw;
+}
+
+/* list section done */
+
+
+
+/* img strt */
+.last-img {
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    padding-top: 13vw;
+}
+
+
+.last-img .text-bg-dark {
+    margin-left: 30vw;
+
+}
+
+.last-img img {
+    width: 34.2vw;
+    height: 30vw;
+}
+
+
+.last-img p {
+    color: palevioletred;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    font-size: 1.7vw;
+    text-align: center;
+    margin-top: 3vw;
+
+}
+
+.last-img h3 {
+    color: palevioletred;
+    margin-left: 29.5vw;
+    font-size: 4vw;
+    padding-bottom: 5vw;
+    font-family: "Dancing Script";
+}
+
+
+
+/* footer strt */
+.footer {
+    background-color: rgb(43, 44, 46);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
+
+
+.row p {
+    color: palevioletred;
+    font-family: "Dancing Script";
+    padding-top: 3vw;
+}
+
+
+.col-md-4 h5 {
+    color: palevioletred;
+}
+
+.text-center span {
+    color: palevioletred;
+    font-family: "Dancing Script";
+}
